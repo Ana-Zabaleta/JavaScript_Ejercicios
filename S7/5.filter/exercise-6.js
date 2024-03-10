@@ -7,12 +7,8 @@ const streamers = [
   { name: "AuronPlay", age: 33, gameMorePlayed: "Among Us" },
 ];
 
-const filteredStreamers = streamers.filter((streamer) => {
-  const legends = streamer.gameMorePlayed.toLowerCase().includes("Legends");
-  if (legends && streamer.age > 35) {
-    streamer.gameMorePlayed = streamer.gameMorePlayed.toUpperCase();
-  }
-  return true;
+const filtradoStreamers = streamers.filter((streamer) => {
+  return streamer.gameMorePlayed.includes("Legends") && streamer.age > 35;
 });
 
 console.log(filtradoStreamers);

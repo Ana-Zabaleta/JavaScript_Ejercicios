@@ -13,7 +13,7 @@ const exams = [
   { name: "Keanu Reeves", score: 10 },
 ];
 
-const suma = exames.reduce((sum, exam) => {
+const suma = exams.reduce((sum, exam) => {
   if (exam.score >= 5) {
     return sum + exam.score;
   }

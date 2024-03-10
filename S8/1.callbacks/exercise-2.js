@@ -22,6 +22,6 @@ function father(description, callback) {
 // guia de confirm y prompt
 // const confirmValue = confirm('Soy un texto');
 // const propmt = prompt('Soy un texto');
-father("Confirm example", confirmExample);
-father("Prompt example", promptExample);
+father("Soy un texto", confirmExample);
+father("Soy un texto", promptExample);
 console.log(userAnwsers);

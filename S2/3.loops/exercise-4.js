@@ -8,12 +8,11 @@ const toys = [
   { id: 40, name: "El gato felix" },
 ];
 
-const moreToys = [];
-
 for (const toy of toys) {
-  if (!toy.name.includes("gato")) {
-    newToys.push(toy);
+  if (toy.name.includes("gato")) {
+    const filtro = toys.indexOf(toy);
+    toys.splice(filtro, 2);
   }
 }
 
-console.log(moreToys);
+console.log(toys);

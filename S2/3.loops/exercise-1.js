@@ -1,4 +1,4 @@
-//Usa un bucle forof para recorrer todos los destinos del array. Imprime en un console log sus valores.
+//Usa un bucle for of para recorrer todos los destinos del array. Imprime en un console log sus valores.
 
 const placesToTravel = [
   "Japon",
@@ -10,5 +10,5 @@ const placesToTravel = [
 ];
 
 for (let places of placesToTravel) {
-    console.log(places);
+  console.log(places);
 }

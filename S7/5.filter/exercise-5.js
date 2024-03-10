@@ -7,7 +7,7 @@ const streamers = [
   { name: "AuronPlay", age: 33, gameMorePlayed: "Among Us" },
 ];
 
-const filtradoStreamersStreamers = streamers.filter((streamer) =>
+const filtradoStreamers = streamers.filter((streamer) =>
   streamer.name.includes("u")
 );
 
